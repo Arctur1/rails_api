@@ -1,0 +1,2 @@
+class ApiItem < ApplicationRecord
+end
