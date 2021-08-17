@@ -6,7 +6,7 @@ class ApiItemsController < ApplicationController
 
     def show
         @apiItem = ApiItem.find(params[:id])
-        render json: @apiItems
+        render json: @apiItem
     end 
 
     def create
