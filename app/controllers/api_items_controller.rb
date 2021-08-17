@@ -14,7 +14,7 @@ class ApiItemsController < ApplicationController
             coin_name: params[:coin_name],
             balance: params[:balance]
         )
-        render json: @apiItems
+        render json: @apiItem
     end 
 
     def update
@@ -23,7 +23,7 @@ class ApiItemsController < ApplicationController
             coin_name: params[:coin_name],
             balance: params[:balance]
         )
-        render json: @apiItems
+        render json: @apiItem
     end 
 
     def destroy
